@@ -35,9 +35,29 @@ article div.container div.tab-content div#home h4{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    background-color: black;
+    background-color: green;
     color: white;
     padding: 5px 0px 2px 0px;
+}
+
+article div.container div.tab-content div#menu1 h4{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: red;
+  color: white;
+  padding: 5px 0px 2px 0px;
+  margin-bottom: 30px;
+}
+
+article div.container div.tab-content div#menu2 h4{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: yellow;
+  color: white;
+  padding: 5px 0px 2px 0px;
+  margin-bottom: 30px;
 }
 
 article div.container div.tab-content div#home div.container form button{
