@@ -103,7 +103,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/AdministradorProfesores.html">
                        <i class="fa fa-2x"><img src="img/AdministrarProfesor.svg" width="30px" height="30px" alt="" srcset=""></i>
                         <span class="nav-text">
                             Administrar Profesores
@@ -147,12 +147,12 @@
                             <div class="form-row">
                               <div class="col-md-6 mb-3">
                                 <label for="validationCustom01">Nombre</label>
-                                <input type="text" class="form-control" id="validationCustom01" value="Mark" required name="nombreAlumnos">
+                                <input type="text" class="form-control" id="validationCustom01" value="" required name="nombreAlumnos">
                                 <div class="valid-feedback"></div>
                               </div>
                               <div class="col-md-6 mb-3">
                                 <label for="validationCustom02">Apellido</label>
-                                <input type="text" class="form-control" id="validationCustom02" value="Otto" required name="apellidoAlumno">
+                                <input type="text" class="form-control" id="validationCustom02" value="" required name="apellidoAlumno">
                                 <div class="valid-feedback"></div>
                               </div>
                             </div>
@@ -183,24 +183,15 @@
                                 </div>
                               </div>
                               <div class="col-md-3 mb-3">
-                                <label for="validationCustom05">Materia</label>
+                                <label for="validationCustom05">Carrera</label>
                                 <select class="custom-select" id="validationCustom04" required>
                                   <option selected disabled value="">...</option>
-                                  <option>Introducción a la informática</option>
-                                  <option>Programación I</option>
-                                  <option>Algoritmos y estructura de datos</option>
-                                  <option>UML</option>
-                                  <option>Programación II</option>
-                                  <option>Arquitectura de sistemas</option>
-                                  <option>Programación III</option>
-                                  <option>Seguridad informática</option>
-                                  <option>Sistemas Operativos</option>
-                                  <option>Programación IV</option>
-                                  <option>Aplicaciones WEB</option>
-                                  <option>Tecnología JAVA</option>
+                                  <option>Tecnicatura en programación de computadores</option>
+                                  <option>Ingenieria en Sistemas</option>
+                                  <option>Analista de sistemas</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                  Por favor, seleccione la materia.
+                                  Por favor, seleccione la Carrera.
                                 </div>
                               </div>
                             </div><br>
@@ -258,23 +249,60 @@
                         </form>
                         <hr>
                         <br>
-                        <div class="row">
-                          <div class="col-md-12">
-                            <table class="table table-hover">
-                              <thead>
-                                <tr class="bg-secondary">
-                                  <th scope="col">#</th>
-                                  <th scope="col">Nombre</th>
-                                  <th scope="col">Apellido</th>
-                                  <th scope="col">DNI</th>
-                                  <th scope="col">Sede</th>
-                                  <th scope="col">Carrera</th>
-                                  <th scope="col" colspan="2">Acción</th>
-                                </tr>
-                              </thead>
-                            </table>
-                          </div>
-                        </div>
+                        <form class="needs-validation" novalidate>
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="validationCustom01">Nombre</label>
+                                <input type="text" class="form-control" id="validationCustom01" value="" required name="nombreAlumnos">
+                                <div class="valid-feedback"></div>
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="validationCustom02">Apellido</label>
+                                <input type="text" class="form-control" id="validationCustom02" value="" required name="apellidoAlumno">
+                                <div class="valid-feedback"></div>
+                              </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="validationCustom03">Documento</label>
+                                <input type="text" class="form-control" id="validationCustom03" disabled name="DNIalumno">
+                                <div class="invalid-feedback">
+                                  Por favor ingrese el Documento
+                                </div>
+                              </div>
+                              <div class="col-md-3 mb-3">
+                                <label for="validationCustom04">Sede</label>
+                                <select class="custom-select" id="validationCustom04" required>
+                                  <option selected disabled value="">...</option>
+                                  <option>Avellaneda</option>
+                                  <option>Escobar</option>
+                                  <option>Chivilcoy</option>
+                                  <option>CABA</option>
+                                  <option>Saladillo</option>
+                                  <option>Hurlingham</option>
+                                  <option>Cañuelas</option>
+                                  <option>Laferrere</option>
+                                  <option>Bridgestone</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Por favor, seleccione la sede.
+                                </div>
+                              </div>
+                              <div class="col-md-3 mb-3">
+                                <label for="validationCustom05">Carrera</label>
+                                <select class="custom-select" id="validationCustom04" required>
+                                  <option selected disabled value="">...</option>
+                                  <option>Tecnicatura en programación de computadores</option>
+                                  <option>Ingenieria en Sistemas</option>
+                                  <option>Analista de sistemas</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Por favor, seleccione la Carrera.
+                                </div>
+                              </div>
+                            </div><br>
+                            <button type="submit" class="btn btn-outline-warning btn-lg">Actualizar</button>
+                        </form>
                       </div>
                     </div>
                   </div>
