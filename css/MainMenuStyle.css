@@ -31,6 +31,38 @@ article div#User div.card-body div.LogoUsuario p{
   font-size: 200%;
 }
 
+article div.CardInferior div.card-body div.g p.bienvenido{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 16pt;
+}
+
+article div.CardInferior div.card-body div.g p.Exitos{
+  margin-left: 41%;
+  font-weight: bold;
+}
+
+article div.CardInferior div.card-body div.g img{
+  justify-content: center;
+  margin-left: 38%;
+  position: absolute;
+}
+
+#pen{
+  animation-name: lapiz;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lapiz{
+  from{
+    margin-left: 42%;
+  }
+  to{
+    margin-left: 44%;
+  }
+}
+
 .fa-2x {
 font-size: 2em;
 }
