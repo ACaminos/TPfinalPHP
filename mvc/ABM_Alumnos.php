@@ -1,138 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tablero</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/AdministradorStyle.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>Tablero</title>
-</head>
-  <body>
-                                    <!-------------------------------------NAV--------------------------------------------->
-    <nav class="fixed-top navbar navbar-dark" id="navBar">
-        <a class="navbar-brand nav">
-          <img src="img/logo.png" alt="logo" height="50px" width="190px">
-        </a>
-        <form class="form-inline">
-          <div class="btn-group" role="group">
-            <button id="btnGroupDrop1" type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="/img/world.svg" alt="mundito" width="20px" height="20px">
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">English (en)</a>
-              <a class="dropdown-item" href="#">Español - Mexico (es_mex)</a>
-            </div>
-          </div>
-          <div class="btn-group" role="group">
-            <button id="notificacion" type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="/img/notification.svg" width="20px" height="20px"  alt="notificaciones">
-            </button>
-            <div class="dropdown-menu pull-left" aria-labelledby="notificacion">
-              <a class="dropdown-item" href="#">Sin notificaciones</a>
-            </div>
-          </div>
-          <div class="btn-group dropleft" role="group">
-            <button id="Mensajes" type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="/img/speech-bubble.svg" width="20px" height="20px">
-            </button>
-            <div class="dropdown-menu pull-left" aria-labelledby="Mensajes">
-              <a class="dropdown-item" href="#">Casilla de mensajes vacia</a>
-            </div>
-          </div>
-          <div class="btn-group dropleft">
-            <button id="User" type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="/img/user.svg" width="30px" height="30px">
-            </button>
-            <div class="dropdown-menu" aria-labelledby="User" >
-                <a class="dropdown-item" href="#"><img src="/img/user.svg" width="20px" height="20px" > Usuario</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#"><img src="/img/speedometer.svg" width="20px" height="20px" > Tablero</a>
-                <a class="dropdown-item" href="#"><img src="/img/Perfil.svg" width="20px" height="20px" > Perfil</a>
-                <a class="dropdown-item" href="#"> <img src="/img/calendar.svg" width="20px" height="20px" > Calificaciones</a>
-                <a class="dropdown-item" href="#"> <img src="/img/letter.svg" width="20px" height="20px" > Mensajes</a>
-                <a class="dropdown-item" href="#"> <img src="/img/Herramienta.svg" width="20px" height="20px" > Preferencias</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="index.html"> <img src="/img/SignOut.svg" width="20px" height="20px" > Salir</a>
-            </div>
-          </div>
-        </form>
-    </nav>
-                                    <!-------------------------------------NAV--------------------------------------------->
-                                    <!-----===========--------------------ASIDE-------------------------------------------->
-      <div class="area"></div><nav class="main-menu">
-            <ul>
-                <li class="has-subnav">
-                    <a href="#">
-                        <i class="fa fa-2x"><img src="img/speedometer.svg" width="30px" height="30px" alt="" srcset=""></i>
-                        <span class="nav-text">
-                            Tablero
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/mainMenu.html">
-                        <i class="fa fa-2x"><img src="img/home.svg" width="30px" height="30px" alt="" srcset=""></i>
-                        <span class="nav-text">
-                            Pagina inicial del sitio
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-2x"><img src="img/calendar.svg" width="30px" height="30px" alt="" srcset=""></i>
-                        <span class="nav-text">
-                           Calendario
-                        </span>
-                    </a>
-                </li>
-                <li>
-                   <a href="#">
-                       <i class="fa fa-2x"><img src="img/copy.svg" width="30px" height="30px" alt="" srcset=""></i>
-                        <span class="nav-text">
-                            Archivos privados
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/AdministradorProfesores.html">
-                       <i class="fa fa-2x"><img src="img/AdministrarProfesor.svg" width="30px" height="30px" alt="" srcset=""></i>
-                        <span class="nav-text">
-                            Administrar Profesores
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/AdministradorAlumnos.html">
-                       <i class="fa fa-2x"><img src="img/Administrarestudiante.svg" width="30px" height="30px" alt="" srcset=""></i>
-                        <span class="nav-text">
-                            Administrar Alumnos
-                        </span>
-                    </a>
-                </li>
-            </ul>
-            <ul class="logout">
-                <li>
-                   <a href="#">
-                         <i class="fa fa-2x"><img src="img/accesibility.svg" width="30px" height="30px" alt="" srcset=""></i>
-                        <span class="nav-text">
-                            Configuraciones de accesibilidad
-                        </span>
-                    </a>
-                </li>  
-            </ul>
-        </nav>
-                              <!---------------------------------------------ASIDE--------------------------------------------------->
-                              <!--------------------------------------------ARTICLE-------------------------------------------------->
-        <article>
+<article>
             <div class="container">
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#home">Alta Alumnos</a></li>
@@ -184,7 +50,7 @@
                               </div>
                               <div class="col-md-3 mb-3">
                                 <label for="validationCustom05">Carrera</label>
-                                <select class="custom-select" id="validationCustom04" required>
+                                <select class="custom-select" id="validationCustom05" required>
                                   <option selected disabled value="">...</option>
                                   <option>Tecnicatura en programación de computadores</option>
                                   <option>Ingenieria en Sistemas</option>
@@ -200,7 +66,7 @@
                       </div>
                     </div>
                     <div id="menu1" class="tab-pane fade">  <!--Segunda Pestaña-->
-                      <h4> <img src="/img/warning.svg" height="30px" width="30px"> ¡Cuidado! En ésta sección usted puede dar de baja definitivamente a alumnos <img src="/img/warning.svg" height="30px" width="30px"> </h4>
+                      <h4> <img src="./img/warning.svg" height="30px" width="30px"> ¡Cuidado! En ésta sección usted puede dar de baja definitivamente a alumnos <img src="./img/warning.svg" height="30px" width="30px"> </h4>
                       <div class="container">
                         <form class="form-inline">
                           <div class="form-group mb-2">
@@ -235,7 +101,7 @@
                       </div>
                     </div>
                     <div id="menu2" class="tab-pane fade2">  <!--Tercera Pestaña-->
-                      <h4> <img src="/img/actualizado.svg" height="30px" width="30px"> Actualización datos de Alumnos <img src="/img/actualizado.svg" height="30px" width="30px" > </h4>
+                      <h4> <img src="./img/actualizado.svg" height="30px" width="30px"> Actualización datos de Alumnos <img src="./img/actualizado.svg" height="30px" width="30px" > </h4>
                       <div class="container">
                         <form class="form-inline">
                           <div class="form-group mb-2">
@@ -308,31 +174,3 @@
                   </div>
             </div>
         </article>
-                      <!--------------------------------------------ARTICLE-------------------------------------------------->
-  </body>
-<script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function() {
-      'use strict';
-      window.addEventListener('load', function() {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('needs-validation');
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-          form.addEventListener('submit', function(event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-          }, false);
-        });
-      }, false);
-    })();
-</script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    </html>
-</body>
-</html>
