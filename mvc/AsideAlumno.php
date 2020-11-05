@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/MisCursos.php">
+                    <a href="./MisCursos.php">
                        <i class="fa fa-2x"><img src="./img/graduationHat.svg" width="30px" height="30px" alt="" srcset=""></i>
                         <span class="nav-text">
                             Mis cursos
