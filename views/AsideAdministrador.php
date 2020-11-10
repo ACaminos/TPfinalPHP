@@ -32,7 +32,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./mainMenu.html">
+                    <a href="./Administrador.php">
                         <i class="fa fa-2x"><img src="./img/home.svg" width="30px" height="30px" alt="" srcset=""></i>
                         <span class="nav-text">
                             Pagina inicial del sitio

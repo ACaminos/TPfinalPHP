@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/EstiloInicioSesion.css">
     <link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1:5500/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Facultad de Ingenieria UNLZ</title>
-</head>
+</head> 
 <body>
 <nav class="fixed-top navbar navbar-dark bg-primary" id="navBar">
     <a class="navbar-brand nav">
@@ -62,8 +62,7 @@
 </div>
 </body>
                               <!---------------------------------------------BOOTSTRAP--------------------------------------------------->
-
 <?php
-require ('./mvc/Bootstrap.php');
+require ('./views/Bootstrap.php');
 ?>
 </html>

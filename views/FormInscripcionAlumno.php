@@ -1,4 +1,4 @@
-<article>
+<article class="inscripciones">
             <div class="container">
                 <hr>
                 <h2>Sistema de Inscripciones a finales</h2>

@@ -1,4 +1,4 @@
-<article>
+<article class="MainMenu">
             <div class="container">
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#home">Alta Profesores</a></li>
